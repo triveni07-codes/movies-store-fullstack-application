@@ -37,7 +37,7 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 cd movies-api
 mvn clean install
-mvn sping-boot:run
+mvn spring-boot:run
 ```
 
 Frontend requires [Node.js](https://nodejs.org/) installed to run.
