@@ -1,0 +1,38 @@
+@import "./variables.scss";
+
+.container-fluid {
+    flex: 1 0;
+
+    #content {
+        flex: 1 0;
+        background: $background-color;
+        position: relative;
+        margin: 0 80px 80px 80px;
+
+        padding-top: 50px;
+    }
+}
+
+.movie-app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    .header {
+        display: block;
+        margin-top: 20px;
+        width: 100%;
+        height: inherit;
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        z-index: 12;
+
+        .header-logo {
+            height: 100px;
+            width: 150px;
+            margin-top: 50px;
+            border-radius: 11px;
+        }
+    }
+}

@@ -1,0 +1,37 @@
+@import "./variables.scss";
+
+.add-movie {
+    padding: 16px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .add-form {
+        padding: 40px;
+        height: 100%;
+        width: 50%;
+        margin: 20px;
+        border-radius: 8px;
+        background-color: black;
+    }
+
+    #title {
+        font-size: larger;
+        font-weight: bold;
+    }
+
+    #title,
+    #comment,
+    #image {
+        color: $form-bg-color;
+        overflow: hidden;
+    }
+
+    #form-button {
+        display: flex;
+        justify-content: space-between;
+        background-color: $color-icon;
+        color: $form-bg-color;
+    }
+}

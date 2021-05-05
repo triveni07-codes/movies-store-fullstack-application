@@ -1,0 +1,22 @@
+.movies-container {
+    padding-top: 40px;
+
+    h4 {
+        margin: 0;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px;
+    }
+    .movie-header {
+        position: relative;
+        width: calc(100vw - 150px);
+        margin: 10px;
+    }
+
+    .movie-list {
+        margin: auto;
+    }
+}
